@@ -28,13 +28,14 @@
     [self testWithParameter];
     [self testWithParameters];
     [self testWithReturnValue];
+    [[Person new] performSelector:@selector(eat) withObject:nil];
 }
 - (void)test{
     // 无参数
     Person * p = [Person new];
     SEL sel = @selector(eat);
-//    NSMethodSignature * signature = [[p class] instanceMethodSignatureForSelector:sel];
-    NSMethodSignature * signature = [NSMethodSignature signatureWithObjCTypes:"v@:@"];
+    NSMethodSignature * signature = [[p class] instanceMethodSignatureForSelector:sel];
+//    NSMethodSignature * signature = [NSMethodSignature signatureWithObjCTypes:"v@:@"];
     NSInvocation * invocation = [NSInvocation invocationWithMethodSignature:signature];
     invocation.selector = sel;
     invocation.target = p;
@@ -48,7 +49,7 @@
     NSInvocation * invocation = [NSInvocation invocationWithMethodSignature:signature];
     invocation.selector = sel;
     invocation.target = p;
-    NSString * str = @"eat";
+    NSString * str = @"火锅";
     [invocation setArgument:&str atIndex:2];
     [invocation invoke];
 }

@@ -11,9 +11,10 @@
 @implementation Person
 
 - (void)eat{
-    NSLog(@"吃...");
+    NSLog(@"%s", __func__);
 }
 - (void)eat:(NSString *)food{
+    NSLog(@"%@", food);
     NSLog(@"%s", __func__);
 }
 - (void)eat:(NSString *)food andPlay:(NSString *)girl{
