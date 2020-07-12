@@ -16,6 +16,7 @@
 		C1474E9A24BA10D90032444E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474E9924BA10D90032444E /* main.m */; };
 		C1474EA424BA10D90032444E /* __NSInvocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474EA324BA10D90032444E /* __NSInvocationTests.m */; };
 		C1474EAF24BA10D90032444E /* __NSInvocationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474EAE24BA10D90032444E /* __NSInvocationUITests.m */; };
+		C1474EBE24BA11500032444E /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C1474EBD24BA11500032444E /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		C1474EAA24BA10D90032444E /* 3.NSInvocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3.NSInvocationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1474EAE24BA10D90032444E /* __NSInvocationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __NSInvocationUITests.m; sourceTree = "<group>"; };
 		C1474EB024BA10D90032444E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1474EBC24BA11500032444E /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C1474EBD24BA11500032444E /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C1474E8B24BA10D60032444E /* SceneDelegate.m */,
 				C1474E8D24BA10D60032444E /* ViewController.h */,
 				C1474E8E24BA10D60032444E /* ViewController.m */,
+				C1474EBC24BA11500032444E /* Person.h */,
+				C1474EBD24BA11500032444E /* Person.m */,
 				C1474E9024BA10D60032444E /* Main.storyboard */,
 				C1474E9324BA10D90032444E /* Assets.xcassets */,
 				C1474E9524BA10D90032444E /* LaunchScreen.storyboard */,
@@ -269,6 +274,7 @@
 			files = (
 				C1474E8F24BA10D60032444E /* ViewController.m in Sources */,
 				C1474E8924BA10D60032444E /* AppDelegate.m in Sources */,
+				C1474EBE24BA11500032444E /* Person.m in Sources */,
 				C1474E9A24BA10D90032444E /* main.m in Sources */,
 				C1474E8C24BA10D60032444E /* SceneDelegate.m in Sources */,
 			);
